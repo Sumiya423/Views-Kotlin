@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#3E4259"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Akhi from Kotlin !"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#D488E1"
+        android:text="Change Text view "
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/toastButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#7EB1DA"
+        android:text="Show Toast"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#968FA3"
+        android:textColor="#67BD6A"
+        android:hint="Enter Something to show in toast......"/>
+
+    <Button
+        android:id="@+id/toastButton2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ADD382"
+        android:text="Show Edited Toast"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/intentButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#EF805D"
+        android:text="Go to next page"
+        android:textAllCaps="false"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
